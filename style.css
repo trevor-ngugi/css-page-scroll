@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Mulli&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: cursive;
+    margin: 0;
+}
+
+
+section{
+    color: rgb(117, 17, 17);
+    font-size: 3em;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#p1{
+    background-color: darksalmon;
+}
+
+#p2{
+    background-color: red;
+}
+
+#p3{
+    background-color: blue;
+}
+#p4{
+    background-color: yellow;
+}
+
+#page-1, nav a:nth-of-type(1) {
+	background-color: #8e44ad;
+}
+
+#page-2, nav a:nth-of-type(2) {
+	background-color: #e74c3c;
+}
+
+#page-3, nav a:nth-of-type(3) {
+	background-color: #2980b9;
+}
+
+#page-4, nav a:nth-of-type(4) {
+	background-color: #2ecc71;
+}
+/* need to understand below code */
+nav {
+	position: fixed;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+nav a {
+	border: 4px solid #fff;
+	border-radius: 50%;
+	display: block;
+	margin: 10px;
+	height: 30px;
+	width: 30px;
+}
